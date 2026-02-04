@@ -29,9 +29,8 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 24),
             _buildCategoryTabs(context),
             const SizedBox(height: 16),
-            Expanded(
-              child: _buildCoffeeGrid(context),
-            ),
+            Expanded(child: _buildCoffeeGrid(context),),
+            const SizedBox(height: 16),
           ],
         ),
       ),
